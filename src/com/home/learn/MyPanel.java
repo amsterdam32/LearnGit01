@@ -13,5 +13,6 @@ public class MyPanel extends JPanel{
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D) g;
         g2.drawOval(50,50,300,300);
+        g2.drawOval(100,100,200,200);
     }
 }
