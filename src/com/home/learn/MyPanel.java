@@ -14,5 +14,6 @@ public class MyPanel extends JPanel {
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D)g;
         g2.drawArc(50,50,250,250,0,240);
+        g2.drawArc(50,50,230,230,230,140);
     }
 }
